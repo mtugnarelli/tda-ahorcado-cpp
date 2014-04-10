@@ -22,6 +22,13 @@ class Ahorcado {
          *       letras.
          */
         Ahorcado(std::string palabra, unsigned int chances);
+
+        /*
+         * post: devuelve la cantidad de veces en las que aún se puede
+         *       arriesgar una letra sin que exista en la palabra.
+         *
+         */
+        unsigned int obtenerChancesRestantes();
 };
 
 

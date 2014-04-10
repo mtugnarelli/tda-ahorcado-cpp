@@ -17,3 +17,9 @@ Ahorcado::Ahorcado(string palabra, unsigned int chances) {
 
     chancesUsadas = 0;
 }
+
+unsigned int Ahorcado::obtenerChancesRestantes() {
+
+    return chancesTotales - chancesUsadas;
+}
+
