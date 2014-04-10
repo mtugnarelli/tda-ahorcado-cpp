@@ -20,6 +20,8 @@ El `Ahorcado` debe proveer operaciones para:
 3. Conocer la palabra, enmascarada por `_` (guión bajo) en aquellas letras
    desconocidas.
    
+4. Arriesgar una letra.
+   
 ## Solución
 
 ### Implementaciones incrementales
@@ -34,10 +36,15 @@ El `Ahorcado` debe proveer operaciones para:
     * implementación: [`Ahorcado.cpp`](../punto-02/src/Ahorcado.cpp)
     * uso: [`main.cpp`](../punto-02/src/main.cpp)
 
-2. Método `string obtenerPalabra()`, nuevo atributo e inicialización ampliada:
+3. Método `string obtenerPalabra()`, nuevo atributo e inicialización ampliada:
     * declaración: [`Ahorcado.h`](../punto-03/src/Ahorcado.h)
     * implementación: [`Ahorcado.cpp`](../punto-03/src/Ahorcado.cpp)
     * uso: [`main.cpp`](../punto-03/src/main.cpp)
+
+4. Método `bool arriesgar(char letra)`:
+    * declaración: [`Ahorcado.h`](../punto-04/src/Ahorcado.h)
+    * implementación: [`Ahorcado.cpp`](../punto-04/src/Ahorcado.cpp)
+    * uso: [`main.cpp`](../punto-04/src/main.cpp)
 
 ### Versión final
 

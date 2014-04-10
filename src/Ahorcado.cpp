@@ -32,3 +32,28 @@ string Ahorcado::obtenerPalabra() {
 
     return palabraEnmascarada;
 }
+
+bool Ahorcado::arriesgar(char letra) {
+
+    int ocurrenciaDeLaLetra = 0;
+
+    if (obtenerChancesRestantes() > 0) {
+
+        /* evalúa la existencia de la letra */
+        for (unsigned int i = 0; i < palabraPorAdivinar.size(); i++) {
+
+            if (palabraPorAdivinar[i] == letra) {
+
+                palabraEnmascarada[i] = letra;
+                ocurrenciaDeLaLetra++;
+            }
+        }
+
+        /* contabiliza el uso de la chance */
+        if (ocurrenciaDeLaLetra == 0) {
+            chancesUsadas++;
+        }
+    }
+
+    return ocurrenciaDeLaLetra > 0;
+}

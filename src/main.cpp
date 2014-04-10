@@ -13,6 +13,16 @@ int main() {
     cout << "Chances: " << partida.obtenerChancesRestantes() << endl;
     cout << "Palabra: " << partida.obtenerPalabra() << endl;
 
+    cout << "  ¿tiene la letra 'M'? " << endl << partida.arriesgar('M') << endl;
+
+    cout << "Chances: " << partida.obtenerChancesRestantes() << endl;
+    cout << "Palabra: " << partida.obtenerPalabra() << endl;
+
+    cout << "  ¿tiene la letra 'U'? " << partida.arriesgar('U') << endl;
+
+    cout << "Chances: " << partida.obtenerChancesRestantes() << endl;
+    cout << "Palabra: " << partida.obtenerPalabra() << endl;
+
     return 0;
 }
 
