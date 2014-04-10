@@ -11,13 +11,17 @@ en el que el objetivo es adivinar una palabra o frase.
 
 El `Ahorcado` debe proveer operaciones para:
 
-1.
+1. Inicializar el juego a partir de una palabra y la cantidad de chances disponibles
+   inicialmente para arriesgar letras.
 
 ## Solución
 
 ### Implementaciones incrementales
 
-1.  
+1. Constructor de `Ahorcado`
+    * declaración: [`Ahorcado.h`](../punto-01/src/Ahorcado.h)
+    * implementación: [`Ahorcado.cpp`](../punto-01/src/Ahorcado.cpp)
+    * uso: [`main.cpp`](../punto-01/src/main.cpp)
 
 ### Versión final
 
