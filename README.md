@@ -21,12 +21,12 @@ El `Ahorcado` debe proveer operaciones para:
 
 ### Implementaciones incrementales
 
-1. Constructor de `Ahorcado`
+1. Constructor de `Ahorcado`:
     * declaración: [`Ahorcado.h`](../punto-01/src/Ahorcado.h)
     * implementación: [`Ahorcado.cpp`](../punto-01/src/Ahorcado.cpp)
     * uso: [`main.cpp`](../punto-01/src/main.cpp)
     
-2. Método `unsigned int obtenerChancesRestantes()`
+2. Método `unsigned int obtenerChancesRestantes()`:
     * declaración: [`Ahorcado.h`](../punto-02/src/Ahorcado.h)
     * implementación: [`Ahorcado.cpp`](../punto-02/src/Ahorcado.cpp)
     * uso: [`main.cpp`](../punto-02/src/main.cpp)
