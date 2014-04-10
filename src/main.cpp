@@ -11,6 +11,7 @@ int main() {
     cout << ".:: Ahorcado ::." << endl << "Partida iniciada" << endl;
 
     cout << "Chances: " << partida.obtenerChancesRestantes() << endl;
+    cout << "Palabra: " << partida.obtenerPalabra() << endl;
 
     return 0;
 }

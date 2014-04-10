@@ -13,6 +13,7 @@ class Ahorcado {
 
         unsigned int chancesUsadas;
 
+        std::string palabraEnmascarada;
 
     public:
         /*
@@ -29,6 +30,12 @@ class Ahorcado {
          *
          */
         unsigned int obtenerChancesRestantes();
+
+        /*
+         * post: devuelve la palabra a adivinar, enmascarando las letras
+         *       desconocidas con '_' (guión bajo).
+         */
+        std::string obtenerPalabra();
 };
 
 
